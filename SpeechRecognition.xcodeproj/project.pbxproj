@@ -11,6 +11,8 @@
 		DA1371622650A110006398E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1371612650A110006398E7 /* ContentView.swift */; };
 		DA1371642650A111006398E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1371632650A111006398E7 /* Assets.xcassets */; };
 		DA1371672650A111006398E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1371662650A111006398E7 /* Preview Assets.xcassets */; };
+		DA13716F2650A20A006398E7 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA13716E2650A20A006398E7 /* SpeechRecognizer.swift */; };
+		DAB9FAA22650BB1D00F2C03E /*  TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB9FAA12650BB1D00F2C03E /*  TagListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		DA1371632650A111006398E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA1371662650A111006398E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA1371682650A111006398E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA13716E2650A20A006398E7 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		DAB9FAA12650BB1D00F2C03E /*  TagListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " TagListView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				DA13715F2650A110006398E7 /* SpeechRecognitionApp.swift */,
+				DA13716E2650A20A006398E7 /* SpeechRecognizer.swift */,
 				DA1371612650A110006398E7 /* ContentView.swift */,
+				DAB9FAA12650BB1D00F2C03E /*  TagListView.swift */,
 				DA1371632650A111006398E7 /* Assets.xcassets */,
 				DA1371682650A111006398E7 /* Info.plist */,
 				DA1371652650A111006398E7 /* Preview Content */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB9FAA22650BB1D00F2C03E /*  TagListView.swift in Sources */,
 				DA1371622650A110006398E7 /* ContentView.swift in Sources */,
 				DA1371602650A110006398E7 /* SpeechRecognitionApp.swift in Sources */,
+				DA13716F2650A20A006398E7 /* SpeechRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
